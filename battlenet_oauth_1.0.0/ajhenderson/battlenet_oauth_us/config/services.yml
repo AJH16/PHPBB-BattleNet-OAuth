@@ -1,0 +1,8 @@
+services:
+    auth.provider.oauth.service.battlenetus:
+        class: phpbb\auth\provider\oauth\service\battlenetus
+        arguments:
+            - @config
+            - @request
+        tags:
+            - { name: auth.provider.oauth.service }
