@@ -2,14 +2,14 @@
 	"name": "ajhenderson/battlenet_oauth_us",
 	"type": "phpbb-extension",
 	"description": "Adds support for US Battle.Net OAuth logins.",
-	"homepage": "",
+	"homepage": "https://github.com/AJH16/PHPBB-BattleNet-OAuth",
 	"version": "1.0.0",
 	"license": "GPL-2.0",
 	"authors": [
 		{
 			"name": "AJ Henderson",
 			"email": "aj@ajhenderson.com",
-			"homepage": "",
+			"homepage": "https://ajhenderson.com",
 			"role": "Developer"
 		}
 	],
