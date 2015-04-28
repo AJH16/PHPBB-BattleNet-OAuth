@@ -1,5 +1,5 @@
 <?php
-namespace OAuth\OAuth2\Service;
+namespace ajhenderson\battlenet_oauth_us\OAuth\OAuth2\Service;
 
 use OAuth\OAuth2\Token\StdOAuth2Token;
 use OAuth\Common\Http\Exception\TokenResponseException;
@@ -9,7 +9,7 @@ use OAuth\Common\Http\Client\ClientInterface;
 use OAuth\Common\Storage\TokenStorageInterface;
 use OAuth\Common\Http\Uri\UriInterface;
 
-class BattleNetBase extends AbstractService
+class BattleNetBase extends OAuth\oAuth2\Service\AbstractService
 {
 	const SCOPE_WOW_PROFILE				= 'wow.profile';
 	const SCOPE_SC2_PROFILE				= 'sc2.profile';

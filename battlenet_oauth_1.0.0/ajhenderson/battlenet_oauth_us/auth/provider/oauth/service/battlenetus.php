@@ -1,17 +1,14 @@
 <?php
 /**
 *
-* This file is part of the phpBB Forum Software package.
 *
-* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @copyright (c) 2015 AJ Henderson
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
-* For full copyright and license information, please see
-* the docs/CREDITS.txt file.
 *
 */
 
-namespace phpbb\auth\provider\oauth\service;
+namespace ajhenderson\battlenet_oauth_us\auth\provider\oauth\service;
 
 /**
 * Battle.Net OAuth service
