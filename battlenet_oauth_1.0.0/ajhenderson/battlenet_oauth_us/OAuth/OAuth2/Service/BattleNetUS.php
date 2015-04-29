@@ -1,5 +1,5 @@
 <?php
-namespace ajhenderson\battlenet_oauth_us\OAuth\OAuth2\Service;
+namespace OAuth\OAuth2\Service;
 
 use OAuth\Common\Http\Uri\Uri;
 use OAuth\Common\Consumer\Credentials;
