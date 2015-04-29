@@ -4,5 +4,6 @@ services:
         arguments:
             - @config
             - @request
+            - @user
         tags:
             - { name: auth.provider.oauth.service }

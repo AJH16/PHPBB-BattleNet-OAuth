@@ -9,7 +9,7 @@ use OAuth\Common\Http\Client\ClientInterface;
 use OAuth\Common\Storage\TokenStorageInterface;
 use OAuth\Common\Http\Uri\UriInterface;
 
-class BattleNetBase extends OAuth\oAuth2\Service\AbstractService
+class BattleNetBase extends AbstractService
 {
 	const SCOPE_WOW_PROFILE				= 'wow.profile';
 	const SCOPE_SC2_PROFILE				= 'sc2.profile';

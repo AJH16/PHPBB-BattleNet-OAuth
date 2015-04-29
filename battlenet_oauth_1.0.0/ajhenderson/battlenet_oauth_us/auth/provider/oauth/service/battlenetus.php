@@ -16,10 +16,10 @@ namespace ajhenderson\battlenet_oauth_us\auth\provider\oauth\service;
 class battlenetus extends \phpbb\auth\provider\oauth\service\base
 {
 	/**
-	* phpBB config
-	*
-	* @var \phpbb\config\config
-	*/
+	 * phpBB config
+	 *
+	 * @var \phpbb\config\config
+	 */
 	protected $config;
 
 	/**
@@ -29,16 +29,26 @@ class battlenetus extends \phpbb\auth\provider\oauth\service\base
 	*/
 	protected $request;
 
+    /**
+     * phpBB user
+     *
+     * @var \phpbb\user
+     */
+    protected $user;
+
 	/**
 	* Constructor
 	*
 	* @param	\phpbb\config\config				$config
 	* @param	\phpbb\request\request_interface	$request
+	* @param    \phpbb\user                         $user
 	*/
-	public function __construct(\phpbb\config\config $config, \phpbb\request\request_interface $request)
+	public function __construct(\phpbb\config\config $config, \phpbb\request\request_interface $request, \phpbb\user $user)
 	{
 		$this->config = $config;
 		$this->request = $request;
+		$this->user = $user;
+		$this->user->add_lang_ext('ajhenderson/battlenet_oauth_us', 'common');
 	}
 
 	/**
