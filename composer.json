@@ -1,5 +1,5 @@
 {
-	"name": "ajhenderson/battlenet oauth us",
+	"name": "AJHenderson/BattleNetOAuthUS",
 	"type": "phpbb-extension",
 	"description": "Adds support for US Battle.Net OAuth logins.",
 	"homepage": "https://github.com/AJH16/PHPBB-BattleNet-OAuth",

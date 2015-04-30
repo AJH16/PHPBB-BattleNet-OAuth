@@ -8,7 +8,7 @@
 *
 */
 
-namespace ajhenderson\battlenet_oauth_us\auth\provider\oauth\service;
+namespace ajhenderson\battlenetoauthus\auth\provider\oauth\service;
 
 /**
 * Battle.Net OAuth service
@@ -48,17 +48,7 @@ class battlenet_us extends \phpbb\auth\provider\oauth\service\base
 		$this->config = $config;
 		$this->request = $request;
 		$this->user = $user;
-		$this->user->add_lang_ext('ajhenderson/battlenet_oauth_us', 'common');
-	}
-
-	/**
-	* {@inheritdoc}
-	*/
-	public function get_auth_scope()
-	{
-		return array(
-			'wow_profile',
-		);
+		$this->user->add_lang_ext('ajhenderson/battlenetoauthus', 'common');
 	}
 
 	/**

@@ -1,14 +1,14 @@
 <?php
 /**
 *
-* Battle.Net Oauth(US).
+* Battle.Net OAuth(US).
 *
 * @copyright (c) 2015 AJ Henderson
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
 */
 
-namespace ajhenderson\battlenet_oauth_us;
+namespace ajhenderson\battlenetoauthus;
 
 /**
 * This ext class is optional and can be omitted if left empty.

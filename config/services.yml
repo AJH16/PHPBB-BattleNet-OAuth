@@ -1,6 +1,6 @@
 services:
     auth.provider.oauth.service.battlenetus:
-        class: ajhenderson\battlenet_oauth_us\auth\provider\oauth\service\battlenet_us
+        class: ajhenderson\battlenetoauthus\auth\provider\oauth\service\battlenet_us
         arguments:
             - @config
             - @request
