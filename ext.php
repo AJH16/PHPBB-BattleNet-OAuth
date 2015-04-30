@@ -8,7 +8,7 @@
 *
 */
 
-namespace ajhenderson\battlenetoauthus;
+namespace AJHenderson\BattleNetOAuthUS;
 
 /**
 * This ext class is optional and can be omitted if left empty.

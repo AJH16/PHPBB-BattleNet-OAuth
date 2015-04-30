@@ -8,7 +8,7 @@
 *
 */
 
-namespace ajhenderson\battlenetoauthus\auth\provider\oauth\service;
+namespace AJHenderson\BattleNetOAuthUS\auth\provider\oauth\service;
 
 /**
 * Battle.Net OAuth service
@@ -48,7 +48,7 @@ class battlenet_us extends \phpbb\auth\provider\oauth\service\base
 		$this->config = $config;
 		$this->request = $request;
 		$this->user = $user;
-		$this->user->add_lang_ext('ajhenderson/battlenetoauthus', 'common');
+		$this->user->add_lang_ext('AJHenderson/BattleNetOAuthUS', 'common');
 	}
 
 	/**
