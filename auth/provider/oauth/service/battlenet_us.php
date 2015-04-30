@@ -13,13 +13,13 @@ namespace ajhenderson\battlenet_oauth_us\auth\provider\oauth\service;
 /**
 * Battle.Net OAuth service
 */
-class battlenetus extends \phpbb\auth\provider\oauth\service\base
+class battlenet_us extends \phpbb\auth\provider\oauth\service\base
 {
 	/**
-	 * phpBB config
-	 *
-	 * @var \phpbb\config\config
-	 */
+	* phpBB config
+	*
+	* @var \phpbb\config\config
+	*/
 	protected $config;
 
 	/**
@@ -29,12 +29,12 @@ class battlenetus extends \phpbb\auth\provider\oauth\service\base
 	*/
 	protected $request;
 
-    /**
-     * phpBB user
-     *
-     * @var \phpbb\user
-     */
-    protected $user;
+	/**
+    * phpBB user
+    *
+    * @var \phpbb\user
+    */
+	protected $user;
 
 	/**
 	* Constructor
