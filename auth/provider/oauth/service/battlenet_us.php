@@ -30,10 +30,10 @@ class battlenet_us extends \phpbb\auth\provider\oauth\service\base
 	protected $request;
 
 	/**
-    * phpBB user
-    *
-    * @var \phpbb\user
-    */
+	* phpBB user
+	*
+	* @var \phpbb\user
+	*/
 	protected $user;
 
 	/**
