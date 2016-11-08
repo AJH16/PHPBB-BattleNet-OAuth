@@ -16,4 +16,5 @@ if (empty($lang) || !is_array($lang))
 }
 $lang = array_merge($lang, array(
 	'AUTH_PROVIDER_OAUTH_SERVICE_BATTLENETUS'				=> 'Battle.Net US',
+	'AUTH_PROVIDER_OAUTH_SERVICE_BATTLENETEU'				=> 'Battle.Net EU',
 ));

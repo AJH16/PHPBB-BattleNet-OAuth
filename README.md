@@ -1,17 +1,18 @@
-# Battle.Net OAuth (US) Extension
+# Battle.Net OAuth (US/EU) Extension
 
 ## Install
 
 1. Download the latest release.
 2. Unzip the downloaded release, and copy to your ext folder.
+(The files should now be located unter ./ext/AJHenderson/BattleNetOAuthUS/)
 3. Navigate in the ACP to `Customise -> Manage extensions`.
-4. Look for `Battle.Net US` under the Disabled Extensions list, and click its `Enable` link.
+4. Look for `Battle.Net US` or `Battle.Net EU` under the Disabled Extensions list, and click its `Enable` link.
 5. Go to dev.battle.net, login (or register if neccessary).
 6. Create a new application for your forum.  
 7. Specify the application url as the https url to your site.
 8. Specify the callback URL as "https://yoursite/ucp.php?i=ucp_auth_link&mode=auth_link&link=1&oauth_service=battlenet".
 (Note that you must be using HTTPS for Battle.Net to produce callback requests to your site.  Without them, oAuth will not work.)
-9. Take the key and secret provided for your new application and enter them in ACP under 'Client Communication -> Authentication' in the Battle.Net US fields.
+9. Take the key and secret provided for your new application and enter them in ACP under 'Client Communication -> Authentication' in the Battle.Net US/EU fields.
 
 ## Uninstall
 
