@@ -1,7 +1,7 @@
 {
 	"name": "AJHenderson/BattleNetOAuthUS",
 	"type": "phpbb-extension",
-	"description": "Adds support for US Battle.Net OAuth logins.",
+	"description": "Adds support for US/EU Battle.Net OAuth logins.",
 	"homepage": "https://github.com/AJH16/PHPBB-BattleNet-OAuth",
 	"version": "1.0.0",
 	"license": "GPL-2.0",
@@ -21,7 +21,7 @@
 			"phpbb/epv": "dev-master"
 	},
 	"extra": {
-		"display-name": "Battle.Net OAuth(US)",
+		"display-name": "Battle.Net OAuth (US/EU)",
 		"soft-require": {
 			"phpbb/phpbb": ">=3.1.0"
 		}

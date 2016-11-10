@@ -7,3 +7,11 @@ services:
             - @user
         tags:
             - { name: auth.provider.oauth.service }
+    auth.provider.oauth.service.battleneteu:
+        class: AJHenderson\BattleNetOAuthUS\auth\provider\oauth\service\battlenet_eu
+        arguments:
+            - @config
+            - @request
+            - @user
+        tags:
+            - { name: auth.provider.oauth.service }
